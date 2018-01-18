@@ -1,9 +1,20 @@
 body {
-  padding-top: 50px;
   background: #1e1e1e;
   color: #6f7074;
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+
+.navbar-brand {
+    padding-top: 0px;
+}
+
+img {
+    padding-top: 5px;
+}
+
+.navbar-nav li a {
+ line-height: 25px;
+}
+
+a {
+    color: #6f7074;
 }

@@ -1,0 +1,3 @@
+User-agent: *
+Host: alsares.com
+Sitemap: alsares.com/sitemap.xml

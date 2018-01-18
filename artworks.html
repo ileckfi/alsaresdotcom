@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <meta name="description" content="Alsares Portfolio">
+    <meta name="author" content="Alsares">
+    <link rel="icon" href="../images/logo.png">
 
     <title>Alsares Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- BlueImp Gallery CSS -->
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
 
     <!-- Custom styles for this template -->
     <link href="alsares.css" rel="stylesheet">
@@ -35,54 +38,101 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="logo"></a>
+          <a class="navbar-brand" href="../index.html"><img src="/images/logo.png" alt="logo"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="../index.html">HOME</a></li>
-            <li><a href="../artworks.html">ARTWORKS</a></li>
-            <li><a href="#games">GAMES</a></li>
-			<li><a href="#contact">CONTACT</a></li>
+            <li><a href="../index.html">HOME</a></li>
+            <li class="active"><a href="../artworks.html">ARTWORKS</a></li>
+<!--            <li><a href="../contact.html">CONTACT</a></li> -->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
 
-	<div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+    
+    
+    <div id="links" >
+        <div class="text-center pagination-centered" style="padding-top: 50px;">
+            <a href="../images/artworks/Azrael.jpg" title="Azrael">
+                <img src="../images/artworks/Azrael_thumbnail.jpg" alt="Azrael">
+            </a>
+            <a href="../images/artworks/Black coral.jpg" title="Black coral">
+                <img src="../images/artworks/Black coral_thumbnail.jpg" alt="Black coral">
+            </a>
+            <a href="../images/artworks/Crocodile.jpg" title="Crocodile">
+                <img src="../images/artworks/Crocodile_thumbnail.jpg" alt="Crocodile">
+            </a>
+            <a href="../images/artworks/Cry.jpg" title="Cry">
+                <img src="../images/artworks/Cry_thumbnail.jpg" alt="Cry">
+            </a>
+            <a href="../images/artworks/Dharivall.jpg" title="Dharivall">
+                <img src="../images/artworks/Dharivall_thumbnail.jpg" alt="Dharivall">
+            </a>
+            <a href="../images/artworks/Dream.jpg" title="Dream">
+                <img src="../images/artworks/Dream_thumbnail.jpg" alt="Dream">
+            </a>
+            <a href="../images/artworks/Edaphosauridae.jpg" title="Edaphosauridae">
+                <img src="../images/artworks/Edaphosauridae_thumbnail.jpg" alt="Edaphosauridae">
+            </a>
+            <a href="../images/artworks/Fawn.jpg" title="Fawn">
+                <img src="../images/artworks/Fawn_thumbnail.jpg" alt="Fawn">
+            </a>
+            <a href="../images/artworks/Gekko.jpg" title="Gekko">
+                <img src="../images/artworks/Gekko_thumbnail.jpg" alt="Gekko">
+            </a>
+            <a href="../images/artworks/KTM X-Bow.jpg" title="KTM X-Bow">
+                <img src="../images/artworks/KTM X-Bow_thumbnail.jpg" alt="KTM X-Bow">
+            </a>
+            <a href="../images/artworks/Lion.jpg" title="Lion">
+                <img src="../images/artworks/Lion_thumbnail.jpg" alt="Lion">
+            </a>
+            <a href="../images/artworks/Matheo.jpg" title="Matheo">
+                <img src="../images/artworks/Matheo_thumbnail.jpg" alt="Matheo">
+            </a>
+            <a href="../images/artworks/Meanwhile in Mordheim.jpg" title="Meanwhile in Mordheim">
+                <img src="../images/artworks/Meanwhile in Mordheim_thumbnail.jpg" alt="Meanwhile in Mordheim">
+            </a>
+            <a href="../images/artworks/Red lion.jpg" title="Red lion">
+                <img src="../images/artworks/Red lion_thumbnail.jpg" alt="Red lion">
+            </a>
+            <a href="../images/artworks/Synx.jpg" title="Synx">
+                <img src="../images/artworks/Synx_thumbnail.jpg" alt="Synx">
+            </a>
+            <a href="../images/artworks/Wild boar.jpg" title="Wild boar">
+                <img src="../images/artworks/Wild boar_thumbnail.jpg" alt="Wild boar">
+            </a>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
+    </div>
 
-      <hr>
-
-      <footer>
-        <p>&copy; Copyright � Alsares.com</p>
-      </footer>
-    </div> <!-- /container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>window.jQuery || document.write('<script src="../../jquery.min.js"><\/script>')</script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="js/blueimp-gallery.min.js"></script>
+    <script>
+    document.getElementById('links').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+    </script>
   </body>
 </html>
