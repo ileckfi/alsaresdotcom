@@ -1,1 +1,1 @@
-https://ileckfi.github.io/index.html
+https://ileckfi.github.io/
